@@ -1,4 +1,4 @@
-package hackerrank.ds;
+package hackerrank.ds.list;
 
 import java.util.Stack;
 
