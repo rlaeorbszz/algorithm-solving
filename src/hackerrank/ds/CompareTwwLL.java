@@ -81,13 +81,25 @@ public class CompareTwwLL {
 				return false;
 			}
 		}
-		if (head1 == null && head2 != null) {
-			return false;
-		} else if (head1 != null && head2 == null) {
-			return false;
-		} else {
-			return true;
-		}
+		
+//		if (head1 == null && head2 != null) {
+//			return false;
+//		} else if (head1 != null && head2 == null) {
+//			return false;
+//		} else {
+//			return true;
+//		}
+		
+//		if(head1==null&&head2==null)
+//		{
+//			return true;
+//		}
+//		else
+//		{
+//			return false;
+//		}
+		
+		return head1==null&&head2==null;
 
 	}
 
