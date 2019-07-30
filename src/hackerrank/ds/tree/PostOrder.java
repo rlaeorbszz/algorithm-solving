@@ -25,15 +25,3 @@ public class PostOrder {
     	System.out.print(root.data + " ");
     }
 }
-
-class Node {
-    Node left;
-    Node right;
-    int data;
-    
-    Node(int data) {
-        this.data = data;
-        left = null;
-        right = null;
-    }
-}
